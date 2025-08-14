@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import UserLayout from "./components/Layout/UserLayout";
+import UserLayout from "./components/layout/UserLayout";
 import Home from "./pages/Home";
 import { Toaster } from "sonner";
 import Login from "./pages/login";
