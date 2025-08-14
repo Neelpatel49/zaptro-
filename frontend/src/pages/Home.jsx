@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import Hero from "../components/layout/Hero";
-import FeaturedCollection from "../components/Products/FeaturedCollection";
-import FeaturesSection from "../components/Products/FeaturesSection";
-import GenderCollectionSection from "../components/Products/GenderCollectionSection";
-import NewArrivals from "../components/Products/NewArrivals";
-import ProductDetails from "../components/Products/ProductDetails";
-import ProductGrid from "../components/Products/ProductGrid";
+import FeaturedCollection from "../components/products/FeaturedCollection";
+import FeaturesSection from "../components/products/FeaturesSection";
+import GenderCollectionSection from "../components/products/GenderCollectionSection";
+import NewArrivals from "../components/products/NewArrivals";
+import ProductDetails from "../components/products/ProductDetails";
+import ProductGrid from "../components/products/ProductGrid";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProductsByFilters } from "../redux/slices/productsSlice";
 import axios from "axios";

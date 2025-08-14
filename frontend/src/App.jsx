@@ -6,7 +6,7 @@ import Login from "./pages/login";
 import Register from "./pages/register";
 import Profile from "./pages/Profile";
 import CollectionPage from "./pages/CollectionPage";
-import ProductDetails from "./components/Products/ProductDetails";
+import ProductDetails from "./components/products/ProductDetails";
 import Checkout from "./components/cart/Checkout";
 import OrderConfirmationPage from "./pages/OrderConfirmationPage";
 import OrderDetailsPage from "./pages/OrderDetailsPage";

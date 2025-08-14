@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { FaFilter } from "react-icons/fa";
-import FilterSidebar from "../components/Products/FilterSidebar";
-import SortOptions from "../components/Products/SortOptions";
-import ProductGrid from "../components/Products/ProductGrid";
+import FilterSidebar from "../components/products/FilterSidebar";
+import SortOptions from "../components/products/SortOptions";
+import ProductGrid from "../components/products/ProductGrid";
 import { useParams, useSearchParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProductsByFilters } from "../redux/slices/productsSlice";
