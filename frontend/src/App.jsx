@@ -2,12 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import UserLayout from "./components/layout/UserLayout";
 import Home from "./pages/Home";
 import { Toaster } from "sonner";
-
-// FIX: use PascalCase to match filenames on case-sensitive systems
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Login from "./pages/login";
+import Register from "./pages/register";
 import Profile from "./pages/Profile";
-
 import CollectionPage from "./pages/CollectionPage";
 import ProductDetails from "./components/products/ProductDetails";
 import Checkout from "./components/cart/Checkout";
@@ -38,14 +35,19 @@ const App = () => {
             <Route path="login" element={<Login />} />
             <Route path="register" element={<Register />} />
             <Route path="profile" element={<Profile />} />
-            <Route path="collections/:collection" element={<CollectionPage />} />
+            <Route
+              path="collections/:collection"
+              element={<CollectionPage />}
+            />
             <Route path="product/:id" element={<ProductDetails />} />
             <Route path="checkout" element={<Checkout />} />
-            <Route path="order-confirmation" element={<OrderConfirmationPage />} />
+            <Route
+              path="order-confirmation"
+              element={<OrderConfirmationPage />}
+            />
             <Route path="order/:id" element={<OrderDetailsPage />} />
             <Route path="my-orders" element={<MyOrdersPage />} />
           </Route>
-
           <Route
             path="/admin"
             element={
@@ -65,5 +67,4 @@ const App = () => {
     </Provider>
   );
 };
-
 export default App;
