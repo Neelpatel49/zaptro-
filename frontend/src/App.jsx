@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import { Toaster } from "sonner";
 import Login from "./pages/login";
 import Register from "./pages/register";
-import Profile from "./pages/Profile";
+import Profile from "./pages/profile";
 import CollectionPage from "./pages/CollectionPage";
 import ProductDetails from "./components/products/ProductDetails";
 import Checkout from "./components/cart/Checkout";
