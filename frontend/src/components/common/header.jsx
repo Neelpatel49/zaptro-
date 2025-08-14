@@ -1,5 +1,5 @@
 import Topbar from "../layout/Topbar";
-import Navbar from "./Navbar";
+import Navbar from "./navbar";
 
 const Header = () => {
   return (
