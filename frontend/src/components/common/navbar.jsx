@@ -5,7 +5,7 @@ import {
   HiBars3BottomRight,
 } from "react-icons/hi2";
 import SearchBar from "./SearchBar";
-import CartDrawer from "../Layout/CartDrawer";
+import CartDrawer from "../layout/CartDrawer";
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { useSelector } from "react-redux";
